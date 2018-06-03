@@ -1,5 +1,5 @@
 ## Iris
-# _by Mark Russell_
+_by Mark Russell_
 
 Hi and welcome to my github!
 
