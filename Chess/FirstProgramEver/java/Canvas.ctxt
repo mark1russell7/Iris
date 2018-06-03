@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=game\ board
+comment0.target=Canvas(Chess,\ Board)
+comment1.params=
+comment1.target=SquareGraphic\ getGraph()
+comment1.text=\r\n\ Returns\ the\ current\ instance\ of\ the\ SquareGraphic\ class.\r\n\r\n\ @return\ the\ current\ instance\ of\ the\ SquareGraphic\ class.\r\n
+numComments=2

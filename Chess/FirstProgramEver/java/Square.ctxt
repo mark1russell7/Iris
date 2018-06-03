@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=row\ column\ color
+comment0.target=Square(int,\ int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ of\ class\ Square\r\n\r\n\ @param\ row-\ \ \ \ row\ in\ which\ this\ square\ is\ located\r\n\ @param\ column-\ column\ in\ which\ this\ square\ is\ located\r\n\ @param\ color-\ \ color\ of\ this\ square\r\n
+comment1.params=
+comment1.target=Piece\ getCurPiece()
+comment1.text=\r\n\ Gets\ and\ returns\ the\ piece\ on\ this\ square\ or\ lack\ thereof\r\n\r\n\ @return\ returns\ the\ piece\ on\ this\ square\ or\ lack\ thereof\r\n
+comment2.params=curPiece
+comment2.target=void\ setCurPiece(Piece)
+comment2.text=\r\n\ Sets\ the\ current\ piece,\ or\ lack\ thereof\ on\ this\ square\r\n\r\n\ @param\ curPiece\ Piece,\ or\ lack\ thereof,\ to\ be\ set\ on\ this\ square\r\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\r\n\ Gets\ and\ returns\ the\ row\ on\ which\ the\ square\ is\ located\r\n\r\n\ @return\ returns\ the\ row\ on\ which\ the\ square\ is\ located\r\n
+comment4.params=
+comment4.target=boolean\ isOccupied()
+comment4.text=\r\n\ Gets\ and\ returns\ whether\ or\ not\ this\ square\ has\ a\ piece\ on\ it\r\n\r\n\ @return\ returns\ whether\ or\ not\ this\ square\ has\ a\ piece\ on\ it\r\n
+comment5.params=occupied
+comment5.target=void\ setOccupied(boolean)
+comment5.text=\r\n\ Sets\ whether\ or\ not\ this\ square\ has\ a\ piece\ on\ it\r\n\r\n\ @param\ occupied-\ whether\ or\ not\ this\ square\ has\ a\ piece\ on\ it\r\n
+comment6.params=
+comment6.target=int\ getColumn()
+comment6.text=\r\n\ Gets\ and\ returns\ the\ column\ on\ which\ the\ square\ is\ located\r\n\r\n\ @return\ returns\ the\ column\ on\ which\ the\ square\ is\ located\r\n
+numComments=7

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=game\ color1\ color2
+comment0.target=Board(Chess,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ of\ class\ Board\r\n\r\n\ @param\ game\ the\ game\ to\ which\ this\ getBoard()\ belongs\r\n
+comment1.params=row\ col
+comment1.target=boolean\ isSqFilled(int,\ int)
+comment1.text=\r\n\ If\ the\ square\ indicated\ has\ a\ piece,\ returns\ true.\ Otherwise,\ returns\ false.\r\n\r\n\ @param\ row\ The\ given\ row\ number\ of\ the\ square.\r\n\ @param\ col\ The\ given\ column\ number\ of\ the\ square.\r\n\ @return\ Returns\ true\ if\ the\ square\ selected\ has\ a\ piece.\ Otherwise,\ returns\ false.\r\n
+comment2.params=row\ col
+comment2.target=java.awt.image.BufferedImage\ getImage(int,\ int)
+comment2.text=\r\n\ Finds\ the\ piece\ that\ occupies\ the\ given\ square.\ Retrieves\ the\ image\ of\ that\r\n\ piece.\r\n\r\n\ @param\ row\ The\ given\ row\ number\ of\ the\ square.\r\n\ @param\ col\ The\ given\ column\ number\ of\ the\ square.\r\n\ @return\ The\ image\ at\ the\ given\ square.\ If\ a\ piece\ does\ not\ occupy\ the\ square\ or\ if\ the\ image\r\n\ cannot\ be\ found,\ returns\ null.\r\n
+comment3.params=
+comment3.target=Square[][]\ getBoard()
+comment3.text=\r\n\ Gets\ the\ getBoard()\ that\ belongs\ to\ this\ game\r\n\r\n\ @return\ returns\ the\ getBoard()\ that\ belongs\ to\ this\ game\r\n
+comment4.params=row\ col
+comment4.target=Square\ pointToSquare(int,\ int)
+comment4.text=\r\n\ Converts\ the\ given\ point\ to\ the\ square\ that\ point\ is\ in\ on\ the\ chess\ getBoard().\r\n\r\n\ @param\ row\ The\ given\ row\ number\ of\ the\ point.\r\n\ @param\ col\ The\ given\ column\ number\ of\ the\ column.\r\n\ @return\ The\ square\ that\ the\ given\ point\ is\ in\ on\ the\ chess\ getBoard().\r\n
+numComments=5
