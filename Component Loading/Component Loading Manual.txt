@@ -1,5 +1,7 @@
 Author: Mark Russell
 
+PLEASE READ ME AND NOTE THAT THE ACCOMPANYING FILES ARE NOT SUFFICIENT, USE THEM AS GUIDELINES INSTEAD
+
 Component loading is a process I came up with to help make 'scene transitioning' more efficient 
 and streamlined for computer programs as well as make implementing transitioning and animations
 much easier for the programmer. 
