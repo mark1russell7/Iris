@@ -1,4 +1,3 @@
-package Server;
 /**
  *  A class that allows the storage of a string that has O(n) append cost instead of the O(s + n) concatenation cost, <br>
  *  where s is the original stored string and n is the length of the new string <br>
