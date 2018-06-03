@@ -2,6 +2,9 @@ Author: Mark Russell
 
 PLEASE READ ME AND NOTE THAT THE ACCOMPANYING FILES ARE NOT SUFFICIENT, USE THEM AS GUIDELINES INSTEAD
 
+Read this from top to bottom, it's short.
+
+
 Component loading is a process I came up with to help make 'scene transitioning' more efficient 
 and streamlined for computer programs as well as make implementing transitioning and animations
 much easier for the programmer. 
@@ -146,6 +149,9 @@ In order to make use of all of this make sure to do the following:
 				FriendsBar: [SideBar, Friend] [fill SideBar with user.friends().get().filter(priority-function)]
 
 			etc. ( I didn't full flesh this one out, but don't be afraid to dive in)
+
+	There's another great thing you can do here, and that is to implement your animations more naturally as actions (or even components themselves).
+	This can be incredibly powerful as well as resource saving.
 
 	Working on your component mode heirarchy is an ongoing task, for my current main project I am changing it almost every day!
 	

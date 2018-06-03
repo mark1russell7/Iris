@@ -1,0 +1,11 @@
+LCA(v,w,T)
+	if v.parent = inf then
+		return v
+	else if w = T.root then
+		return LCA(v.parent, w, T)
+	else
+		vP <- v.parent
+		v.parent <- inf
+		lo <- LCA(w,vP,T)
+		v.parent <- vP
+		return lo
