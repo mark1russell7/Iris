@@ -1,0 +1,159 @@
+Author: Mark Russell
+
+Component loading is a process I came up with to help make 'scene transitioning' more efficient 
+and streamlined for computer programs as well as make implementing transitioning and animations
+much easier for the programmer. 
+
+What I mean by 'scene transitioning' is the process of 
+going from one set of graphical objects and their states, to another set of graphical objects 
+and their states. An example of this could be going from your News Feed on FaceBook to your 
+Profile Page.
+
+Traditionally for websites this is accomplished by having two separate domains ie:
+	...facebook.../profilepage.html and ...facebook.../timeline.html
+
+and by clicking on a link to these pages you are essentially just requesting and loading 
+information sent to you by facebook. (I know facebook uses php and hence the .html part 
+of the above is incorrect) While I admittedly do not personally know about the optimizations 
+currently being used to speed up this process, I think it is safe to say these optimizations 
+do not do what I will be describing in this document as they require a fundamentally different 
+(and more object oriented) way of organizing and building projects than I have seen.
+
+
+Component Loading is based on 3 fundamental parts that make up most of the backend of the program being implemented:
+	1. Components: a component is an object that makes up a 'scene'.  A component could your friends
+		side bar on Facebook, or it could be your profile page description. Like your side bar, components are
+		made up of subcomponents (which are also componenets themselves), like the abstract object that represents
+		each of your friends. Components can have a set actions invoked when they are loaded.
+	2. Actions: Actions are sequences of instructions that are executed on components to change their state.  An example
+		of an action could be your friends sidebar switching from the right side of your screen to the left,
+		or even a video auto playing as you scroll over it. Actions have something called 'placement direction'
+		which can be very useful for finding bugs at compilation rather than at runtime.
+	3. Modes: modes are equivalent to scenes, they are also equivalent to components, the difference between modes and
+		components is entirely semantic, a mode would be used to represent your profile page, while a component
+		would be used to represent your friends bar
+Here are the ADTs for each:
+	Component:
+		Component[] subcomponents
+		Set<Action> actions
+		load()
+		unload()
+		isLoaded()
+	Mode:
+		Component[] subcomponents
+		Set<Action> actions
+		load()
+		unload()
+		isLoaded()
+	Actions:
+		invoke()
+		reverse()
+		~Set<String> placementDirections // or however else you choose to represent the instructions
+
+When loading a mode, you must first unload the currently loaded mode first.
+As you may have noticed, each mode is comprised of a forest of trees 
+(components that are subcomponents of a mode are considered in this way), these
+trees are called load trees and are integral to the component loading process.
+
+Here is where the great benefit of component loading comes in,
+instead of unloading the entire mode, we only unload the parts which we need to,
+and we keep the parts that we would end up loading while loading the next mode anyway.
+
+keep in mind the following vocab:
+	load trees: trees whose root is the direct child of a mode
+	LCAs: Lowest Common Ancestor: of two nodes in a tree is the deepest parent node shared by said nodes
+		as this is an action repeated a lot in this method I have attached psuedocode I wrote for
+		computing this algorithm with the lowest possible worst case runtime (O(h))
+	Loading Zone: this is the theoretical place where the mode being loaded and the mode being unloaded has their
+			forest put.
+	Dependent/Independent Actions: this refers to if one component has actions whose object is one of its subcomponents
+
+	PD Grammar: PDs or Placement Directions should be statements or objects of any kind which follow some format like so:
+		Preposition Object     Action
+	ie.     After	    FriendsBar Loaded
+		    as long as the grammar for these statements is streamlined by some set of grammar rules like above, and is
+			based on changing the state of objects that are components, then you are using PDs correctly.
+Here is the process:
+
+Simple Method:
+	// use this if you are trying to use this style of programming without enforcing it semantically
+	to load a Component (or Mode):
+		1. load() all subcomponents
+		2. load self
+		3. invoke() all actions
+	to unload a Component (or Mode):
+		1. reverse() all actions
+		2. unload() all subcomponents
+		3. unload self
+Advanced Method:
+	// use this if you are trying to use this style of programming in a larger scale project or if you
+	// want to semantically enforce/streamline its use
+
+	Changing modes:
+		1. Mark all components (and subcomponents recursively) of new mode as 'holds'
+		2. For each subcomponent of the current mode:
+			a. find all leaves of the subcomponents load tree and put it into an ordered collection
+			b. iterating over leaves from L -> R
+				for every consecutive L -> R pair:
+					find and store their LCA in a hashset
+				for each leaf reverse actions and unload
+					then repeat for parents until an LCA is reached
+				store all reached LCAs (make sure they haven't been unloaded yet) as leaves
+				and repeat until null parent or empty LCA set
+		
+	when unloading, if LCA or leaf is in more than one load tree then:
+		1. if a hold for this component exists, skip it and move to its parent in the current load tree
+		2. else if the other trees are all unloaded, continue as if normal
+		3. else
+			a. if one parent has dependent actions on the current component, unload the other tree up to this
+				component,unload the tree with the dependent action parent up to the parent, reverse the action and
+				continue as if normal.
+			b. if more than one parent has dependent actions, form a 'conglomerate PD List' and try to unload this node, 
+				then finish unloading the current tree
+					Forming a Conglomerate PD List:
+						1. order actions by their PlacementDirections
+						2. if there is an ambiguity in order
+							a. if this is caused by repeated actions then just order them in any valid way and continue
+							b. else look for PD conditionals
+							c. if a  or b are not satisfied then we have a load conflict of the first order:
+
+			Handling load conflicts of the first order:
+				1. check for Pds, components, or actions with dependencies strictly on the state of the scenario
+				These dependencies should be fixed or PDs further contrained ->
+					PD conditionals
+						these are placement directions that only exist if certain PDs, components, or actions are in the loading zone
+				a. if PDs exist, sort with them, else throw a Major Error
+				b. if no strict issues, send a minor error (dev should catch error if no resolution is going to be implemented)
+					and then order arbitrarily and continue (definetely not recommended)
+	
+
+In order to make use of all of this make sure to do the following:
+	Break down your program into parts or components (preferably into something like an object), and break these components into subcomponents where able.
+	You don't want to have a million files with one line each, but you also don't want to have one file with a million lines.
+	Be reasonable with how far you go.  Doing this just by itself can help you program better as it makes your code easier to traverse,
+	easer to read and easier to think about, however to get caught taking this too far as it ends up just wasting a lot of time and making
+	it actually harder to read.  I personally have done both, I've gotten lazy and written all my code in one file, only to find myself having to
+	clean up all of my code when it just became unmanageable, and I have also gone way to far with fragementing my code and made it impossible to
+	read or use as I would have to open separate files for each part of my project.
+
+	Now that your code is easier to read and you have split your project into objects, try to reduce redundancy and build your component mode heirarchy.
+	It may be helpfup to write this out:
+				Profile Page: [ProfileDescription, ProfileFeed, General]
+				General: [TopBar, FriendsBar]
+				ProfileDescription: [Description, ProfilePicture] 
+				FriendsBar: [SideBar, Friend] [fill SideBar with user.friends().get().filter(priority-function)]
+
+			etc. ( I didn't full flesh this one out, but don't be afraid to dive in)
+
+	Working on your component mode heirarchy is an ongoing task, for my current main project I am changing it almost every day!
+	
+	Follow the process and wallah!
+	This won't be easy to code.  
+	!!While this can be done with any language: 
+		if you are building a small project I suggest using a language like JavaScript, the lack of type safety restrictions will save you a ridiculous amount of time and stress
+			and the process is perfect for minimizing the amount of computations on the client side, as well as the network usage (very important if you are building a web application 
+			which should be lightweight and responsive)
+		if you are building a large or corporate project, I suggest using a language that is object oriented. This will surely reduce the number of bugs and errors caused by code, as this
+			code for the manager that will manage this process is very skeletal many of these ADTs can be abstractly represented (through the use of something like inheritance) to force
+			employees to write code correctly and which will have the correct and correctly working methods for this process.  Furthermore, using a language with no type safety restrictions
+			could prove deadly for a larger project if a small error were to exist in the component managing code.
