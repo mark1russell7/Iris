@@ -1,7 +1,7 @@
 ## Iris
 _by Mark Russell_
 
-<div style="text-align:center"> Hi and welcome to my github! </div>
+<p style="text-align:center"> Hi and welcome to my github! </p>
 
 Just a little table of contents here!
 
