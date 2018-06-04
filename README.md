@@ -5,9 +5,9 @@ _by Mark Russell_
 
 Hi and welcome to my github!
 
-Just a little table of contents here!
+Just a little table of contents here.
 
-Please check out my 'Component Loading' Folder, it's something I am really excited about
+Please check out my 'Component Loading' Folder, it's something I am really excited about!
 
 </p>
 
