@@ -5,7 +5,7 @@ Hi and welcome to my github!
 
 Just a little table of contents here.
 
-Please check out my 'Component Loading' Folder, it's something I am really excited about!
+Please check out my '**Component Loading**' Folder, it's something I am really excited about!
 
 * **StringBucket** is a really fast String Data Structure whose data points (nodes) are nodes in two separate linked lists and are hashed into an array
 
