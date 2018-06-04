@@ -3,11 +3,11 @@ _by Mark Russell_
 
 <p align="center"> 
 
-<b> Hi and welcome to my github! </b> </br>
+				Hi and welcome to my github!
 
-<b> Just a little table of contents here. </b> </br>
+				Just a little table of contents here.
 
-<b> Please check out my 'Component Loading' Folder, it's something I am really excited about!  </b> </br>
+				Please check out my 'Component Loading' Folder, it's something I am really excited about!
 
 </p>
 
