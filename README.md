@@ -1,7 +1,7 @@
 ## Iris
 _by Mark Russell_
 
-<p style="text-align: center"> Hi and welcome to my github! </p>
+<p style="align: center"> Hi and welcome to my github! </p>
 
 Just a little table of contents here!
 
@@ -12,8 +12,8 @@ Please check out my 'Component Loading' Folder, it's something I am really excit
 * **DataStructures** contains all sorts of Data Structures that I've replicated. Check out my Binomial Queue, Cuckoo Hashed Hashmap (For actually guaranteed O(1) time) and my Splay Tree.
 
 * **Chess** contains two things: 
-	1. my first program ever! a very slow game of chess with graphics and many cool functionalities like automatic game save, PGN export, and it even tells you all your valid moves!
-	1. chess written with graphics in 50 lines of java! (did it as a self-challenge)
+	* My first program ever! a very slow game of chess with graphics and many cool functionalities like automatic game save, PGN export, and it even tells you all your valid moves!
+	* Chess written with graphics in 50 lines of java! (did it as a self-challenge)
 
 * **Work in Progress** contains a Data Structure I was working on for a while that I will continue on at some point
 
