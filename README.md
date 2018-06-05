@@ -7,7 +7,7 @@ Just a little table of contents here.
 
 Please check out my '**Component Loading**' Folder, it's something I am really excited about!
 
-* **StringBucket** is a really fast String Data Structure whose data points (nodes) are nodes in two separate linked lists and are hashed into an array
+* **StringBucket** is a really fast String Data Structure whose data points (nodes) are nodes in two separate linked lists and are hashed into an array (Use the StringBucket.java only use QuadLinkedStringBucket if you test it first (I will test it soon))
 
 * **DataStructures** contains all sorts of Data Structures that I've replicated. Check out my Binomial Queue, Cuckoo Hashed Hashmap (For actually guaranteed O(1) time) and my Splay Tree.
 
