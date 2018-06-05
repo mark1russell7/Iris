@@ -99,41 +99,45 @@ Advanced Method:
 	// want to semantically enforce/streamline its use
 
 	Changing modes:
-		1. Mark all components (and subcomponents recursively) of new mode as 'holds'
-		2. For each subcomponent of the current mode:
-			a. find all leaves of the subcomponents load tree and put it into an ordered collection
-			b. iterating over leaves from L -> R
-				for every consecutive L -> R pair:
-					find and store their LCA in a hashset
-				for each leaf reverse actions and unload
-					then repeat for parents until an LCA is reached
-				store all reached LCAs (make sure they haven't been unloaded yet) as leaves
-				and repeat until null parent or empty LCA set
-		
-	when unloading, if LCA or leaf is in more than one load tree then:
-		1. if a hold for this component exists, skip it and move to its parent in the current load tree
-		2. else if the other trees are all unloaded, continue as if normal
-		3. else
-			a. if one parent has dependent actions on the current component, unload the other tree up to this
-				component,unload the tree with the dependent action parent up to the parent, reverse the action and
-				continue as if normal.
-			b. if more than one parent has dependent actions, form a 'conglomerate PD List' and try to unload this node, 
-				then finish unloading the current tree
-					Forming a Conglomerate PD List:
-						1. order actions by their PlacementDirections
-						2. if there is an ambiguity in order
-							a. if this is caused by repeated actions then just order them in any valid way and continue
-							b. else look for PD conditionals
-							c. if a  or b are not satisfied then we have a load conflict of the first order:
+		1. Mark all components and subcomponents recursively of new mode as 'holds'
+		2. Define unloading a component as:
+			1. reverse() all actions
+			2. unload self
+			3. unload() all subcomponents
+		3. Call unload() on the current mode.
+		4. Check at the start of every unload method:
+			1. if the current component is already unloaded, skip it and continue as if normal
+			2. if the current component is marked as a hold.  If so, return.
+			3. if the component is in more than one load tree currently in the loading zone then:
+				1. if all of these other trees are unloaded, continue as if normal 
+				2. else
+					a. if one parent in another load tree has dependent actions on the current component, unload the other tree up to 
+						this component, unload this component, and continue unloading the current load tree as if normal
+					b. if more than one parent has dependent actions, form a 'conglomerate PD List' and try to unload this node, 
+						then finish unloading the current tree
+							Forming a Conglomerate PD List:
+								1. order actions by their PlacementDirections
+								2. if there is an ambiguity in order
+									a. if this is caused by repeated actions then just order them in any valid way and continue
+									b. else look for PD conditionals
+									c. if a  or b are not satisfied then we have a load conflict of the first order:
+					Handling load conflicts of the first order:
+						1. check for Pds, components, or actions with dependencies strictly on the state of the scenario
+						These dependencies should be fixed or PDs further contrained ->
+							PD conditionals
+								these are placement directions that only exist if certain PDs, components, or actions are in the loading zone
+						a. if PDs exist, sort with them, else throw a Major Error
+						b. if no strict issues, send a minor error (dev should catch error if no resolution is going to be implemented)
+							and then order arbitrarily and continue (definetely not recommended)
+					c. else if none of these trees have parents with dependent actions on the current component then unload the current component and continue as if normal
 
-			Handling load conflicts of the first order:
-				1. check for Pds, components, or actions with dependencies strictly on the state of the scenario
-				These dependencies should be fixed or PDs further contrained ->
-					PD conditionals
-						these are placement directions that only exist if certain PDs, components, or actions are in the loading zone
-				a. if PDs exist, sort with them, else throw a Major Error
-				b. if no strict issues, send a minor error (dev should catch error if no resolution is going to be implemented)
-					and then order arbitrarily and continue (definetely not recommended)
+		5. Now load all components of the new mode that aren't already loaded (Have a hashset of all currently loaded components for this)
+		 To do this define loading a component as: 
+			1. load() all subcomponents 
+			2. load self (not load() method but the actual action of loading) 
+			3. invoke() all actions
+		and then call load of the new mode (remembering as stated above to omit already loaded components)
+
 	
 
 In order to make use of all of this make sure to do the following:
