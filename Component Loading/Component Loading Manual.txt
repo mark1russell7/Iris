@@ -53,7 +53,7 @@ Here are the ADTs for each:
 	Actions:
 		invoke()
 		reverse()
-		~Set<String> placementDirections // or however else you choose to represent the instructions
+		~Set<String> placementDirections // or however else you choose to represent the placement directions
 
 When loading a mode, you must first unload the currently loaded mode first.
 As you may have noticed, each mode is comprised of a forest of trees 
