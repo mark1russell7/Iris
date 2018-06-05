@@ -173,7 +173,7 @@ In order to make use of all of this make sure to do the following:
 		if you are building a small project I suggest using a language like JavaScript, the lack of type safety restrictions will save you a ridiculous amount of time and stress
 			and the process is perfect for minimizing the amount of computations on the client side, as well as the network usage (very important if you are building a web application 
 			which should be lightweight and responsive)
-		if you are building a large or corporate project, I suggest using a language that is object oriented. This will surely reduce the number of bugs and errors caused by code, as this
+		if you are building a large or corporate project, I suggest using a language that is object oriented. This will surely reduce the number of bugs and errors caused by code, as the
 			code for the manager that will manage this process is very skeletal many of these ADTs can be abstractly represented (through the use of something like inheritance) to force
-			employees to write code correctly and which will have the correct and correctly working methods for this process.  Furthermore, using a language with no type safety restrictions
-			could prove deadly for a larger project if a small error were to exist in the component managing code.
+			employees to write code correctly and which will have the correct syntax and behavior for the methods for this process.  Furthermore, using a language with no type safety restrictions
+			could prove deadly for a larger project (especially if a small error were to exist in the component managing code).
