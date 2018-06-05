@@ -122,12 +122,16 @@ Advanced Method:
 									b. else look for PD conditionals
 									c. if a  or b are not satisfied then we have a load conflict of the first order:
 					Handling load conflicts of the first order:
-						1. check for Pds, components, or actions with dependencies strictly on the state of the scenario
+						1. check for Pds, components, or actions with dependencies strictly on the state of the scenario (for instance if an action had 
+							a PD that said "Before FriendsBar Moved 5px" as this could cause issues in compatability with other components that use 
+							the friendsbar and might move it, removing these strict dependencies would allow for unlimited compatability, while allowing 
+							these would provide little to no extra programmatic flexibility or ability and would instead make certain combinations of 
+							components have nearly impossible to solve compatability issues)
 						These dependencies should be fixed or PDs further contrained ->
 							PD conditionals
 								these are placement directions that only exist if certain PDs, components, or actions are in the loading zone
-						a. if PDs exist, sort with them, else throw a Major Error
-						b. if no strict issues, send a minor error (dev should catch error if no resolution is going to be implemented)
+							if PDs exist, sort with them, else throw a Major Error (cannot be caught and must be resolved immediately)
+						2. if no strict issues, send a minor error (dev should catch error if no resolution is going to be implemented)
 							and then order arbitrarily and continue (definetely not recommended)
 					c. else if none of these trees have parents with dependent actions on the current component then unload the current component and continue as if normal
 
