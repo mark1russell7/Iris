@@ -1,12 +1,10 @@
 /**
  *  A class that allows the storage of a string that has O(n) append cost instead of the O(s + n) concatenation cost, <br>
  *  where s is the original stored string and n is the length of the new string <br>
- *  Has the one downside of an O(n) toString(), getCharArray(), substring(), and subarray() methods <br>
  *  Over the concatenation of n strings each of length k, the complexity to do all concatenations in a loop would <br>
  *  be 0.5 * k*n(n+1) such that O(kn^2) <br>
  *  over the appending of n strings each of length k, the complexity of StringBucket's appending of all strings in a <br>
- *  loop would be O(kn), then getting the string or char[] representation would be another O(n), totalling the  <br>
- *  complexity to O(kn) <br>
+ *  loop would be O(kn) <br>
  *  email: mrussell17@brandeis.edu
  *  @author Mark Russell
  *  @version 9/27/17
