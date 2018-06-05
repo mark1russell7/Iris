@@ -63,6 +63,10 @@ trees are called load trees and are integral to the component loading process.
 Here is where the great benefit of component loading comes in,
 instead of unloading the entire mode, we only unload the parts which we need to,
 and we keep the parts that we would end up loading while loading the next mode anyway.
+This can be very efficient, for example, when going from your Profile page on facebook, to
+your news feed, as the side and top bars do not have to be loaded or even sent over the internet.  Better yet
+would be going from your profile page to your friends profile page, you will notice how efficient this model is
+for scene transitions like that where the start and end scene are the same mode with different states.
 
 keep in mind the following vocab:
 	load trees: trees whose root is the direct child of a mode
