@@ -148,8 +148,8 @@ In order to make use of all of this make sure to do the following:
 	Break down your program into parts or components (preferably into something like an object), and break these components into subcomponents where able.
 	You don't want to have a million files with one line each, but you also don't want to have one file with a million lines.
 	Be reasonable with how far you go.  Doing this just by itself can help you program better as it makes your code easier to traverse,
-	easer to read and easier to think about, however to get caught taking this too far as it ends up just wasting a lot of time and making
-	it actually harder to read.  I personally have done both, I've gotten lazy and written all my code in one file, only to find myself having to
+	read and even think about. However be careful not to get caught taking this too far as it ends up just wasting time and making your code
+	harder to read.  I personally have done both, I've gotten lazy and written all my code in one file, only to find myself having to
 	clean up all of my code when it just became unmanageable, and I have also gone way to far with fragementing my code and made it impossible to
 	read or use as I would have to open separate files for each part of my project.
 
