@@ -1,11 +1,14 @@
 ## Iris
 _by Mark Russell_
 
+(disclaimer -- a lot is currently pending, large changes to come soon)
+
 Hi and welcome to my github!
 
 Just a little table of contents here.
 
 Please check out my '**Component Loading**' Folder, it's something I am really excited about!
+	(soon to be added : W and more)
 
 * **StringBucket** is a really fast String Data Structure whose data points (nodes) are nodes in two separate linked lists and are hashed into an array (Use the StringBucket.java only use QuadLinkedStringBucket if you test it first (I will test it soon))
 
@@ -17,7 +20,7 @@ Please check out my '**Component Loading**' Folder, it's something I am really e
 
 * **Work in Progress** contains a Data Structure I was working on for a while that I will continue on at some point
 
-Look out for my two upcoming publications: _Synthetic Math_ and _Bond Theory_!
+Look out for my two upcoming publications: _Synthetic Math_ and _Bond Theory_! (Dynamic Functions tba)
 
 
 **Thanks** and enjoy!
