@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c986dd54-4085-4c78-813b-da25c1448681" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="558146758">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="8" />
+          <entry key="js" value="179" />
+          <entry key="json" value="1" />
+          <entry key="rnc" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="8" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="179" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="175" />
+          <entry key="js" value="63250" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="175" />
+          <entry key="JavaScript" value="63250" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/DescentOptions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/DynamicDescent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13022">
+              <caret line="766" column="15" selection-start-line="766" selection-start-column="15" selection-end-line="766" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/Program.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sub</find>
+      <find>descent_s</find>
+      <find>alg</find>
+      <find>ge</find>
+      <find>line</find>
+      <find>chain2</find>
+      <find>mult</find>
+      <find>100</find>
+      <find>for</find>
+      <find>console</find>
+      <find>lusolve</find>
+      <find>back</find>
+      <find>alpha</find>
+      <find>eps</find>
+      <find>alp</find>
+      <find>visit</find>
+      <find>Cons</find>
+      <find>prec</find>
+      <find>math</find>
+      <find>make</find>
+      <find>baC</find>
+      <find>camera</find>
+      <find>add_plate</find>
+      <find>table</find>
+      <find>tabl</find>
+      <find>tablea</find>
+      <find>tab</find>
+      <find>&lt;</find>
+      <find>make_but</find>
+      <find>make_b</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/Reps" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/js/IMPORTS/asq.js" />
+        <option value="$PROJECT_DIR$/src/js/IMPORTS/THREE.MeshLine.js" />
+        <option value="$PROJECT_DIR$/src/js/DescentArea.js" />
+        <option value="$PROJECT_DIR$/src/js/AreaManager.js" />
+        <option value="$PROJECT_DIR$/src/js/Sugar.js" />
+        <option value="$PROJECT_DIR$/src/js/Symbolic.js" />
+        <option value="$PROJECT_DIR$/src/js/InputHandling.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/EquationBuilder.js" />
+        <option value="$PROJECT_DIR$/src/js/BackBone.js" />
+        <option value="$PROJECT_DIR$/src/js/Area.js" />
+        <option value="$PROJECT_DIR$/src/js/SceneSettings.js" />
+        <option value="$PROJECT_DIR$/src/js/Program.js" />
+        <option value="$PROJECT_DIR$/src/js/DynamicDescent.js" />
+        <option value="$PROJECT_DIR$/src/js/Simplex.js" />
+        <option value="$PROJECT_DIR$/src/js/DescentOptions.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.babel.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/src/package/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Convex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Convex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Convex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Convex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Convex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Convex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Convex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Convex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.11.3" />
+    <property name="last_opened_file_path" value="C:/Reps" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\clmcr\WebstormProjects\Convex\src\js\GARB" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\clmcr\WebstormProjects\Convex\src\js\IMPORTS" />
+      <recent name="C:\Users\clmcr\WebstormProjects\Convex" />
+      <recent name="C:\Users\clmcr\WebstormProjects\Convex\src\css" />
+      <recent name="C:\Users\clmcr\WebstormProjects\Convex\src\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c986dd54-4085-4c78-813b-da25c1448681" name="Default Changelist" comment="" />
+      <created>1556028135570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556028135570</updated>
+      <workItem from="1556028136776" duration="67688000" />
+      <workItem from="1556237064342" duration="36785000" />
+      <workItem from="1556555206388" duration="63202000" />
+      <workItem from="1556927644174" duration="610000" />
+      <workItem from="1557078184592" duration="2995000" />
+      <workItem from="1557599647595" duration="599000" />
+      <workItem from="1557692557920" duration="599000" />
+      <workItem from="1557859048468" duration="599000" />
+      <workItem from="1557934596417" duration="599000" />
+      <workItem from="1558022845876" duration="599000" />
+      <workItem from="1558130060312" duration="599000" />
+      <workItem from="1558204207153" duration="594000" />
+      <workItem from="1559414947362" duration="694000" />
+      <workItem from="1565656887067" duration="2584000" />
+      <workItem from="1565713314720" duration="2814000" />
+      <workItem from="1565736062903" duration="663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="182223000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3637516" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3282967" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/IMPORTS/asq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-end-column="5960" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/bubble.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/IMPORTS/algebra-0.2.6.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/AreaManager.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/IMPORTS/THREE.MeshLine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GARB/DescentArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa27208.33705/core.js" />
+    <entry file="file://$PROJECT_DIR$/package/index.js" />
+    <entry file="file://$PROJECT_DIR$/package/core.js" />
+    <entry file="file://$PROJECT_DIR$/package/lib/core/core.js" />
+    <entry file="file://$PROJECT_DIR$/package/dist/math.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/IMPORTS/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="183" column="59" selection-start-line="183" selection-start-column="59" selection-end-line="183" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16186" column="43" lean-forward="true" selection-start-line="16186" selection-start-column="43" selection-end-line="16186" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/InputHandling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Symbolic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/BackBone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/SceneSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Simplex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="240" column="29" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/EquationBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Area.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Sugar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/DescentOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/DynamicDescent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13022">
+          <caret line="766" column="15" selection-start-line="766" selection-start-column="15" selection-end-line="766" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Program.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19463088" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+//
+        The following license pertains solely to the 'Software' included was explicitly written by the 'three.js authors'
+        community; defined as the online open source github project lead by 'mrdoob'.  This license specifically does
+        not extend its bounds beyond the contents of the relevant files named 'three.js', 'DragControls.js', 'OrbitControls.js',
+        'Reflector.js', 'Refractor.js', 'Stats.js', 'VRControls.js', 'VREffect.js', 'Water2.js', 'TransformControls.js'.
+        Other files that pertain by order of possession to the 'three.js authors' that by any means were included in connection to these files,
+        and whom were absent by any means in the previous statement of recognition, if distributed in connection, are
+        not the responsibility of any authors of connected or related distributions besides the immediate liable author whom placed such
+        files without proper license.
+//
+
+The MIT License
+
+Copyright © 2010-2019 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
