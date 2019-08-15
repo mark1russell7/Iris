@@ -9,8 +9,8 @@ Just a little table of contents here.
 
 
 
-* **Convex** contains a 3D visual math system.  Functionalites include :<br/> 
-		*  A symbolic calculator / differentiator that I built from the ground up.  Users can input any multivariable polynomial function, take the Gradient or Hessian, and can perform Gradient Descent or Newton’s Method dynamic on all parameters -- all of which are all seen plotted visually in 3D.  Utilizes asynchronous programming for multitasking.<br/>  	
+* **Convex** contains a 3D visual math system.  Functionalites include : 
+	* A symbolic calculator / differentiator that I built from the ground up.  Users can input any multivariable polynomial function, take the Gradient or Hessian, and can perform Gradient Descent or Newton’s Method dynamic on all parameters -- all of which are all seen plotted visually in 3D.  Utilizes asynchronous programming for multitasking.<br/>  	
 		*  A linear program optimizer.  Users can input a Linear Program and perform the Simplex Method on it, visually, in 3D.
 	
 * Please check out my '**Component Loading**' Folder, it's something I am really excited about! (soon to be added : W and more)
