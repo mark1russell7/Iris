@@ -7,7 +7,7 @@ Hi and welcome to my github!
 
 Just a little table of contents here.
 
-
+* **Bubble** contains selected excerpts from ...
 
 * **Convex** contains a 3D visual math system.  Functionalites include : 
 	* A symbolic calculator / differentiator that I built from the ground up.  Users can input any multivariable polynomial function, take the Gradient or Hessian, and can perform Gradient Descent or Newton’s Method dynamic on all parameters -- all of which are all seen plotted visually in 3D.  Utilizes asynchronous programming for multitasking.
