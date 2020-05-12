@@ -135,7 +135,7 @@ public class BufferedArrayList<E>
     private int trueIndex(int index) {
         return (insertMode ? operationsList
                 .stream()
-                .filter(e -> e.getStart() <= index && e.getEnd() <= index)
+                .filter(e -> e.getStart() <= index && e.getEnd() >= index)
                 .mapToInt(Operation::getOperation)
                 .sum() : 0) + array[index].getIndex() + index;
     }
