@@ -7,8 +7,6 @@ Hi and welcome to my github!
 
 Just a little table of contents here.
 
-* **Bubble** contains selected excerpts from the software that I developed for my start-up.  These excerpts are a demonstration of the progression of a portion of the software's back end structure.  I wish that I could show more -- but much of the software is subject to Intellectual Property (IP) restrictions!
-
 * **Convex** contains a 3D visual math system.  Functionalites include : 
 	* A symbolic calculator / differentiator that I built from the ground up.  Users can input any multivariable polynomial function, take the Gradient or Hessian, and can perform Gradient Descent or Newton’s Method dynamic on all parameters -- all of which are all seen plotted visually in 3D.  Utilizes asynchronous programming for multitasking.
 	* A linear program optimizer.  Users can input a Linear Program and perform the Simplex Method on it, visually, in 3D.
